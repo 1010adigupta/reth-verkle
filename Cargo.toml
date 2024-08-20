@@ -1,3 +1,9 @@
+members = [
+    "verkle",
+    "test-trie",
+    "testdata"
+]
+
 [package]
 name = "reth-verkle"
 version = "0.1.0"
@@ -7,3 +13,4 @@ edition = "2021"
 ffi_interface = {git = "https://github.com/1010adigupta/rust-verkle.git", branch = "reth-verkle-genesis-changes"}
 ipa-multipoint = {git = "https://github.com/1010adigupta/rust-verkle.git", branch = "reth-verkle-genesis-changes"}
 verkle-trie = {git = "https://github.com/1010adigupta/rust-verkle.git", branch = "reth-verkle-genesis-changes"}
+alloy = { version = "0.2", features = ["full"] }
